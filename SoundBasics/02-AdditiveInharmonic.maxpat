@@ -846,7 +846,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
-									"midpoints" : [ 740.0, 31.0 ],
+									"midpoints" : [ 740.5, 31.0 ],
 									"order" : 6,
 									"source" : [ "obj-24", 0 ]
 								}
@@ -1598,9 +1598,11 @@
 					"maxclass" : "kslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"offset" : 22,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.0, 14.0, 336.0, 53.0 ]
+					"patching_rect" : [ 164.0, 14.0, 612.0, 53.0 ],
+					"range" : 88
 				}
 
 			}
