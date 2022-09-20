@@ -1393,7 +1393,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 132.0, 87.0, 746.0, 582.0 ],
+						"rect" : [ 51.0, 190.0, 746.0, 582.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1421,7 +1421,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 148.0, 113.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "number",
@@ -1494,12 +1507,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 413.999999761581421, 483.333336293697357, 150.0, 33.0 ],
-									"text" : "Note Transparent Backgrounds"
+									"patching_rect" : [ 413.999999761581421, 483.333336293697357, 180.0, 47.0 ],
+									"text" : "Note:\nView > Inspector Window\nto change background colors"
 								}
 
 							}
@@ -1520,7 +1533,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.999999761581421, 455.333336293697357, 150.0, 20.0 ],
+									"patching_rect" : [ 413.999999761581421, 534.333336293697357, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 53.0, 27.333336293697357, 150.0, 20.0 ],
 									"text" : "Patcher inspector"
@@ -1557,6 +1570,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -1570,15 +1590,19 @@
 
 							}
  ],
-						"bgcolor" : [ 0.305882352941176, 0.305882352941176, 0.305882352941176, 1.0 ]
+						"clearcolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 0.0 ],
+						"bgcolor" : [ 0.72156862745098, 0.690196078431373, 0.690196078431373, 1.0 ],
+						"stripecolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 29.0, 576.120375319543655, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"clearcolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 0.0 ],
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.305882352941176, 0.305882352941176, 0.305882352941176, 1.0 ],
+						"locked_bgcolor" : [ 0.72156862745098, 0.690196078431373, 0.690196078431373, 1.0 ],
+						"stripecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 						"tags" : ""
 					}
 ,
